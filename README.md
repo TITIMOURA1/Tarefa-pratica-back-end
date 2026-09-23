@@ -39,4 +39,5 @@ Também são realizados testes de filtro, atualização de chamado e identifica�
 
  Autoria
 
-Nome: Thiago Moura de Araújo Aguiar
+Nome: Thiago Moura de Araújo Aguiar, Larissa Meryene, Nicholas Eduardo Pereira
+
