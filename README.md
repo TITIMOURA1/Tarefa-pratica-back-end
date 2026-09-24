@@ -1,43 +1,37 @@
-Gerenciador de Chamados Internos
+# 📋 Sistema Web de Gerenciamento de Tarefas
 
- Objetivo
+Projeto desenvolvido para a disciplina de **Laboratório de Programação Back-End** da **Universidade de Vassouras**, referente à **Semana 06**.
 
-Este programa é um protótipo de um gerenciador de chamados internos. Ele permite listar chamados, filtrar chamados por situação, atualizar a situação de um chamado pelo ID e mostrar as categorias existentes sem repetição.
+O projeto consiste no desenvolvimento de um sistema web para gerenciamento de tarefas utilizando **Python e Django**.
 
- Como executar
+---
 
-O programa foi desenvolvido em Python.
+## 👥 Integrantes do Grupo
 
-Para executar pelo terminal, utilize:
+- **Laryssa Meryene dos Santos Cardoso**  
+  RA: 202422933
 
-  text
-python gerenciador_chamados.py
-```
+- **Nicholas Eduardo Pereira Sobrinho**  
+  RA: 202411284
 
- Exemplo de uso
+- **Thiago Moura de Araújo Aguiar**  
+  RA: 202422974
 
-O programa apresenta os chamados cadastrados e permite consultar as situações.
+---
 
-Exemplo:
+## 📁 Estrutura do Projeto
 
- text
-TODOS OS CHAMADOS
+### `gestao_tarefas/`
+Contém as configurações principais e as rotas do projeto Django.
 
-ID: 1
-Título: Sem acesso ao sistema interno
-Prioridade: alta
-Situação: aberto
-Categoria: acesso
-```
+### `tarefas/`
+Aplicação responsável pelas **views, URLs e templates** do sistema.
 
-Também são realizados testes de filtro, atualização de chamado e identificação de categorias sem repetição.
+---
 
- Arquivos
+## 🚀 Como Executar o Projeto
 
- `gerenciador_chamados.py` — código principal do programa.
- `README.md` — documentação do projeto.
+### 1. Criar o ambiente virtual
 
- Autoria
-
-Nome: Thiago Moura de Araújo Aguiar, Larissa Meryene, Nicholas Eduardo Pereira
-
+```bash
+python -m venv .venv
