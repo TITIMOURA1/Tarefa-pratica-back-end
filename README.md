@@ -1,43 +1,40 @@
-Gerenciador de Chamados Internos
+# 📋 Sistema de Gerenciamento de Tarefas
 
- Objetivo
+Projeto desenvolvido para a disciplina de Laboratório de Programação Back-End.
 
-Este programa é um protótipo de um gerenciador de chamados internos. Ele permite listar chamados, filtrar chamados por situação, atualizar a situação de um chamado pelo ID e mostrar as categorias existentes sem repetição.
+## 👥 Integrantes
 
- Como executar
+- Laryssa Meryene dos Santos Cardoso - RA: 202422933
+- Nicholas Eduardo Pereira Sobrinho - RA: 202411284
+- Thiago Moura de Araújo Aguiar - RA: 202422974
 
-O programa foi desenvolvido em Python.
+## 📁 Organização do Projeto
 
-Para executar pelo terminal, utilize:
+- `tarefa.py`: contém a classe Tarefa e seus métodos.
+- `servicos.py`: contém as funções de cadastro, listagem e filtro.
+- `main.py`: executa e demonstra o funcionamento do programa.
 
-  text
-python gerenciador_chamados.py
-```
+## ⚙️ Funcionalidades
 
- Exemplo de uso
+O programa permite:
 
-O programa apresenta os chamados cadastrados e permite consultar as situações.
+- Cadastrar tarefas.
+- Listar tarefas.
+- Filtrar tarefas pela situação.
+- Marcar uma tarefa como concluída.
 
-Exemplo:
+## ▶️ Como Executar
 
- text
-TODOS OS CHAMADOS
+Abra o terminal na pasta do projeto e execute:
 
-ID: 1
-Título: Sem acesso ao sistema interno
-Prioridade: alta
-Situação: aberto
-Categoria: acesso
-```
+python main.py
 
-Também são realizados testes de filtro, atualização de chamado e identificação de categorias sem repetição.
+## 🐍 Tecnologias
 
- Arquivos
+- Python
 
- `gerenciador_chamados.py` — código principal do programa.
- `README.md` — documentação do projeto.
+## 📌 Demonstração
 
- Autoria
+O programa cria três tarefas de exemplo.
 
-Nome: Thiago Moura de Araújo Aguiar, Larissa Meryene, Nicholas Eduardo Pereira
-
+Uma das tarefas é marcada como concluída e, ao final, o programa mostra todas as tarefas e também as tarefas concluídas.
