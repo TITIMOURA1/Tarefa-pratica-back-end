@@ -1,37 +1,40 @@
-# 📋 Sistema Web de Gerenciamento de Tarefas
+# 📋 Sistema de Gerenciamento de Tarefas
 
-Projeto desenvolvido para a disciplina de **Laboratório de Programação Back-End** da **Universidade de Vassouras**, referente à **Semana 06**.
+Projeto desenvolvido para a disciplina de Laboratório de Programação Back-End.
 
-O projeto consiste no desenvolvimento de um sistema web para gerenciamento de tarefas utilizando **Python e Django**.
+## 👥 Integrantes
 
----
+- Laryssa Meryene dos Santos Cardoso - RA: 202422933
+- Nicholas Eduardo Pereira Sobrinho - RA: 202411284
+- Thiago Moura de Araújo Aguiar - RA: 202422974
 
-## 👥 Integrantes do Grupo
+## 📁 Organização do Projeto
 
-- **Laryssa Meryene dos Santos Cardoso**  
-  RA: 202422933
+- `tarefa.py`: contém a classe Tarefa e seus métodos.
+- `servicos.py`: contém as funções de cadastro, listagem e filtro.
+- `main.py`: executa e demonstra o funcionamento do programa.
 
-- **Nicholas Eduardo Pereira Sobrinho**  
-  RA: 202411284
+## ⚙️ Funcionalidades
 
-- **Thiago Moura de Araújo Aguiar**  
-  RA: 202422974
+O programa permite:
 
----
+- Cadastrar tarefas.
+- Listar tarefas.
+- Filtrar tarefas pela situação.
+- Marcar uma tarefa como concluída.
 
-## 📁 Estrutura do Projeto
+## ▶️ Como Executar
 
-### `gestao_tarefas/`
-Contém as configurações principais e as rotas do projeto Django.
+Abra o terminal na pasta do projeto e execute:
 
-### `tarefas/`
-Aplicação responsável pelas **views, URLs e templates** do sistema.
+python main.py
 
----
+## 🐍 Tecnologias
 
-## 🚀 Como Executar o Projeto
+- Python
 
-### 1. Criar o ambiente virtual
+## 📌 Demonstração
 
-```bash
-python -m venv .venv
+O programa cria três tarefas de exemplo.
+
+Uma das tarefas é marcada como concluída e, ao final, o programa mostra todas as tarefas e também as tarefas concluídas.
