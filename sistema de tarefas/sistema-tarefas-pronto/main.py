@@ -1,1 +1,0 @@
-print("Sistema Web de Gestão de Tarefas")
