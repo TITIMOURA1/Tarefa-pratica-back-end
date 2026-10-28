@@ -7,6 +7,8 @@
 <body>
     <h1>Sistema Web de Gestão de Tarefas</h1>
     <p>Esta é a página inicial da aplicação.</p>
+    <p>Categorias cadastradas: {{ quantidade_categorias }}</p>
+    <p>Tarefas cadastradas: {{ quantidade_tarefas }}</p>
     <a href="{% url 'lista_tarefas' %}">Ver tarefas</a>
 </body>
 </html>
